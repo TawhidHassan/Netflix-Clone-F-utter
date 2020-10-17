@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'categories.dart';
+import 'genres.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -8,6 +9,7 @@ class Body extends StatelessWidget {
     return Column(
       children: [
         Categorylist(),
+        Genres(),
       ],
     );
   }
